@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Passions+Conflict&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+
+header {
+  height: 80vh;
+  background: url(https://images.unsplash.com/photo-1639431682289-72b9ebb75895?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Lobster", cursive;
+  padding: 20px;
+}
+
+header nav a {
+  color: #bababa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+  border-bottom: 1px solid #919191;
+}
+
+header .principal {
+  margin-top: 40px;
+}
+
+header .principal h4 {
+  padding: 20px;
+}
+
+.présentation {
+  background: #797c95;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Indie Flower", cursive;
+}
+.présentation .gauche {
+  width: 60%;
+  margin-right: 30px;
+}
+
+.présentation .droite {
+  width: 451px;
+}
+
+@media screen and (max-width: 907px) {
+  .présentation .gauche {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .présentation .droite {
+    margin: auto;
+  }
+}
